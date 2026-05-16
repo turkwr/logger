@@ -1,6 +1,6 @@
 {
   "name": "@turkwr/logger",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Configurable CLI logger with gradient colors and file logging",
   "type": "module",
   "main": "./dist/index.cjs",
