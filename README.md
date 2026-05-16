@@ -105,12 +105,6 @@ Log levels (lowest to highest): `debug` → `info` → `success` → `event` →
 import { gradient, formatError, createTheme, mergeConfig } from "@turkwr/logger";
 ```
 
-## Publish (maintainers)
-
-1. Create an npm automation token and add `NPM_TOKEN` to GitHub secrets.
-2. Create a GitHub release with tag `v0.1.0` (or bump version in `package.json`).
-3. The publish workflow runs `npm publish --provenance --access public`.
-
 ## License
 
 MIT
